@@ -35,3 +35,57 @@ The app allows users to:
 ## 📸 Screenshots
 / Add screenshots in screenshots folder /
 
+
+
+## 🧠 Architecture
+/ MVVM Architecture /
+
+- UI → Jetpack Compose
+- ViewModel → Business logic
+- Repository → Data handling
+- Room → Local database
+- WorkManager → Background reminder
+
+## ⏰ Reminder Logic
+/ Notification scheduling /
+
+- Testing: OneTimeWorkRequest (1 minute delay)
+- Production: PeriodicWorkRequest (minimum 15 minutes)
+- Notification opens app using PendingIntent
+
+## 🧪 How to Run
+/ Steps to run project /
+
+1. Clone the repository
+2. Open project in Android Studio  
+3. Sync Gradle  
+4. Run on emulator or real device  
+5. Allow notification permission
+
+## 📌 Notes
+/ Important points /
+
+- PeriodicWorkRequest minimum time = 15 minutes
+- Notification permission required for Android 13+
+- Works completely offline
+
+## 🚀 Future Improvements
+/ Enhancements /
+
+- Edit vitals
+- Snackbar undo delete
+- Dark mode
+- Charts for vitals
+- Cloud backup
+
+## 👨‍💻 Author
+/ Developer info /
+
+**Tejpal**  
+Android Developer (Kotlin | Jetpack Compose)
+
+## ⭐ Support
+/ If you like this project /
+
+Give this repo a ⭐ on GitHub
+
