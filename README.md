@@ -31,7 +31,11 @@ The app allows users to:
 - ⚡ Real-time UI updates
 
 ## 📸 Screenshots
-/ Add screenshots in screenshots folder /
+<p align="center">
+  <img src="screenshots/first.png" width="230" />
+  <img src="screenshots/second.png" width="230" />
+  <img src="screenshots/third.png" width="230" />
+</p>
 
 
 
